@@ -10,7 +10,19 @@
     margin: 0;
     padding: 0;
   }
+
+  .loadingStyle{
+    text-align:center;
+    color: white;
+    font-size: bold;
+  }
   
+  .errorStyle{
+    text-align:center;
+    color: red;
+    font-size: bold;
+  }
+
   @keyframes meals-appear {
     from {
       opacity: 0;
